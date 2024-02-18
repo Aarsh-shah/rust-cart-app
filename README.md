@@ -5,7 +5,7 @@
 - [] Scylla
 - [] Kafka
 - [x] Cache - redis for the price of the items
-- [x] ChatGPT
+- [x] ChatGPT - getting recipe from ingredients
 - [x] API Integration for dynamic price fetching
 - [] logging
 - [] Adding a streaming ml job? 
@@ -13,6 +13,8 @@
 - [] graph ql
 - [] Geospatial index
 - [] Time series
+- [x] Github
+- [x] Lint
 
 
 ### GET API
@@ -70,7 +72,7 @@ curl --location --request GET 'localhost:3030/v1/groceries/appldfsae' \
 --header 'Content-Type: application/json' \
 --header 'Content-Type: text/plain'  
 
-<html><body><p style="color:red;">Value for item appldfsae</p><p>30</p></body></html>
+<html lang="English"><body><p style="color:red;">Value for item appldfsae</p><p>30</p></body></html>
 
 ### GET USING REDIS ITEM
 This is used for fetching the value via openfoodfacts api, and store it in api
@@ -89,7 +91,9 @@ Ex: Apple, sugar, chocolate
 curl --location --request GET 'localhost:3030/v1/recipe' \   
 --header 'Content-Type: application/json' \
 --header 'Content-Type: text/plain'
+
 ---------------
+## RESPONSE
 Here is a recipe for chocolate-covered apples:
 
 Ingredients:
