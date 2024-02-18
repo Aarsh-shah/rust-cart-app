@@ -17,7 +17,7 @@ use warp::{Filter};
 use parking_lot::RwLock;
 use std::collections::HashMap;
 use std::sync::Arc;
-use ::redis::{Commands, AsyncCommands};
+
 use serde::{Serialize, Deserialize};
 use mongodb::{bson::{Document, doc}, Client, Collection};
 use crate::chatgpt::getrecipe::get_api_resp;
