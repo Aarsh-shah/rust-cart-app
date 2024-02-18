@@ -116,3 +116,7 @@ Instructions:
 ### Using the barcode, we are updating the energy, no need for the name right now 
 
 ### ChatGPT - will get expired in may, might have to change acc/get new creds
+
+### [Chat gpt dashboard](https://platform.openai.com/usage)
+
+### [Mongo db dashboard](https://cloud.mongodb.com/v2/60332dcf15279f67439788a8#/metrics/replicaSet/65acf66a72d449172ce66e30/explorer/rust-backend/cart/find)
